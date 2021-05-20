@@ -1,3 +1,6 @@
+h1{
+  font-size: 50px;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -35,6 +38,7 @@ h1 {
   color: #CD1212;
   top: 30%;
   position: relative;
+  padding: 20px;
 }
 
 .footer-linkk:hover {
@@ -68,6 +72,7 @@ p {
   left: 40%;
   transform: translate(-50%, -50%);
   color: #CD1212;
+  font-size: 25px;
 }
 
 .hero-text button {
@@ -80,7 +85,7 @@ p {
   background-color: #CD1212;
   text-align: center;
   cursor: pointer;
-  border-radius: 20px;
+  border-radius: 30px;
 }
 
 .hero-text button:hover {
@@ -127,6 +132,7 @@ p {
 .hero-image03 {
   background-image: url("../images/fondo3.png");
   height: 900px;
+  width: 1425px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -135,7 +141,6 @@ p {
 
 .hero-image04 {
   background-image: url("../images/fondo4.png");
-  height: 300px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -145,6 +150,7 @@ p {
 .hero-image05 {
   background-image: url("../images/fondo5.png");
   height: 300px;
+  width: 1425px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -201,19 +207,12 @@ p {
 .buttom-container {
   text-align: center;
   position: relative;
-  margin: 0;
-  padding: 0px 40px;
   background-color: #E8E5D8;
-}
-
-.form-container {
-  width: 50%;
-  padding: 0px 60px;
 }
 
 .footer-text {
   font-size: 30px;
-  padding: 100px 10px;
+  padding: 100px 60px;
 }
 
 .footer-2021 {
@@ -224,24 +223,23 @@ p {
 }
 
 .portafolio-ph {
-  position: relative;
-  padding-top: 180px;
-  padding-left: 170px;
-  margin: 0px;
+
+  padding-top:180px;
+  margin: -10px;
 }
 
 .short {
   display: block;
   width: 245px;
   height: 200px;
-  margin: 0px;
+  margin: 25px;
 }
 
 .large {
   display: block;
   width: 245px;
   height: 330px;
-  margin: 0px;
+  margin: 25px;
 }
 
 .hero-text03 {
